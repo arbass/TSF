@@ -1,0 +1,19 @@
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://тсфм.рф" resolutions="1x" timestamp="1502474113702">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="index.css" crc="4073066052" ref="index"/>
+    <file name="nomq_index.css" crc="4267773305" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="boat---3588.mp4" crc="264732893" seo="true" mt="1501510485000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="4232573551" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="4152223963" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="433634197" ref="index"/>
+    <file name="require.js" crc="4234670167" ref="index"/>
+  </folder>
+  <file name="index.html" crc="4169619953" seo="true" mt="1502473903264" redirect="true"/>
+</manifest>
