@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body {
+	background: #15191D;
 	font: 18px 'Open Sans', sans-serif;
 }
 
@@ -94,4 +95,63 @@ a {
 #slide-buttoms ul li {
 	float: left;
 	margin-left: 10px;
+}
+
+#content-box {
+	position: relative;
+	margin: 0 auto;
+	width: 1200px;
+	background: #15191D;
+	margin: 0 auto;
+	height: 883px;
+}
+
+#offer-title {
+	padding-top: 10px;
+	line-height: 1.4;
+	text-align: center;
+	font: 38px 'Open Sans', sans-serif;
+	color:#A79258;
+}
+
+.card {
+	margin-top: 12.5px;
+	margin-bottom: 29px;
+	position: relative;
+/*	background: url(../res/offer-1.png) 100% no-repeat;*/
+	text-align: center;
+	height:375px;
+	width:550.5px;
+	border:  1px solid #A79258;
+	background-clip: border-box;
+	display: block;
+}
+
+.mirror {
+	height:375px;
+	width:550.5px;
+	top: 285px;
+	position: absolute;
+}
+
+.offer-text {
+	color: #FFFBFC;
+	position: absolute;
+	bottom: 16.5px;
+	text-align: center;
+	margin: 0 auto;
+	left: 3.6px;
+	right: 3.7px;
+}
+
+#content-box-1 {
+	left: 15px;
+	position: absolute;
+	float: left;
+}
+
+#content-box-2 {
+	right: 15px;
+	position: absolute;
+	float: right;
 }
