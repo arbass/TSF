@@ -111,6 +111,16 @@ a {
 	height: 883px;
 }
 
+#contact-box {
+	min-height: calc(100vh - 138px);
+	position: relative;
+	margin: 0 auto;
+	width: 1200px;
+	background: #15191D;
+	margin: 0 auto;
+	height: 879px;
+}
+
 #offer-title {
 	padding-top: 10px;
 	line-height: 1.4;
