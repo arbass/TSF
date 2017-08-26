@@ -124,20 +124,19 @@ a {
 #info {
 	position: relative;
 	margin: 0 auto;
-	width: 1025px;
-	height: 749px;
-	background: white;
+	width: 1032.7px;
+	height: 354px;
+
 	margin: 77.5px 112px 52.5px 63px;
 }
 
 #where-map {
-	float: left;
 	position: absolute;
-	height: 309px;
-	width: 523px;
+	height: 352px;
+	width: 529.7px;
 	background: url(../res/map.png) no-repeat;
 	border:  2px solid #A79258;
-	margin: 245.5px 4.5px 194.5px 0;
+	top: ;
 }
 
 #central-line {
@@ -149,7 +148,14 @@ a {
 }
 
 #contacts-text {
-	
+	color: #E2C880;
+	font: 18px 'Open Sans', sans-serif;
+	position: absolute;
+	right: 0;
+	width: 472px;
+	height: 352px;
+	border-left: 3px solid #A79258;
+	padding-left: 15.5px;
 }
 
 #offer-title {
