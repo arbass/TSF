@@ -102,6 +102,7 @@ a {
 }
 
 #content-box {
+	min-height: calc(100vh - 138px);
 	position: relative;
 	margin: 0 auto;
 	width: 1200px;
@@ -132,7 +133,6 @@ a {
 }
 
 .mirror {
-	height:375px;
 	width:550.5px;
 	top: 285px;
 	position: absolute;
