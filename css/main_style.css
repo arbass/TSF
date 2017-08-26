@@ -121,6 +121,37 @@ a {
 	height: 879px;
 }
 
+#info {
+	position: relative;
+	margin: 0 auto;
+	width: 1025px;
+	height: 749px;
+	background: white;
+	margin: 77.5px 112px 52.5px 63px;
+}
+
+#where-map {
+	float: left;
+	position: absolute;
+	height: 309px;
+	width: 523px;
+	background: url(../res/map.png) no-repeat;
+	border:  2px solid #A79258;
+	margin: 245.5px 4.5px 194.5px 0;
+}
+
+#central-line {
+	float: right;
+	width: 20px;
+	height: 749px;
+	position: absolute;
+	background: #A79258;
+}
+
+#contacts-text {
+	
+}
+
 #offer-title {
 	padding-top: 10px;
 	line-height: 1.4;
