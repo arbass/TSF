@@ -140,14 +140,13 @@ a {
 	width: 100%;
 }
 
-/*#ads-block {
-	opacity: none;
-	position: absolute;
+#ads-block {
+	margin: 60.9px 8px 74px 7px;
 	background: white;
 	width: 1185.05px;
 	height: 828.07px;
 }
-*/
+
 
 
 #info {
