@@ -10,6 +10,12 @@ body {
 	font: 18px 'Open Sans', sans-serif;
 }
 
+.ads-body {
+	background: url(../res/Background-ads.png) no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
 a {
 	text-decoration: none;
 }
@@ -120,6 +126,22 @@ a {
 	margin: 0 auto;
 	height: 100%;
 }
+
+#ads-box, #ads-opacy {
+	min-height: calc(100vh - 138px);
+	position: relative;
+	height: 100%;
+	margin: 0 auto;
+	width: 1200px;
+}
+
+#ads-opacy {
+	background: #777777;
+	opacity: 0.52;
+	width: 100%;
+}
+
+
 
 #info {
 	display: block;
