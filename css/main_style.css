@@ -136,11 +136,18 @@ a {
 }
 
 #ads-opacy {
-	background: #777777;
-	opacity: 0.52;
+	background: rgba(119, 119, 119, 0.52);;
 	width: 100%;
 }
 
+/*#ads-block {
+	opacity: none;
+	position: absolute;
+	background: white;
+	width: 1185.05px;
+	height: 828.07px;
+}
+*/
 
 
 #info {
