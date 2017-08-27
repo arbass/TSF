@@ -118,25 +118,26 @@ a {
 	width: 1200px;
 	background: #15191D;
 	margin: 0 auto;
-	height: 879px;
+	height: 100%;
 }
 
 #info {
+	display: block;
 	position: relative;
 	margin: 0 auto;
 	width: 1032.7px;
 	height: 354px;
-
-	margin: 77.5px 112px 52.5px 63px;
+	margin: 110px 112px 52.5px 137px;
 }
 
 #where-map {
+	display: block;
 	position: absolute;
 	height: 352px;
 	width: 529.7px;
 	background: url(../res/map.png) no-repeat;
 	border:  2px solid #A79258;
-	top: ;
+	background-size: cover;
 }
 
 #central-line {
@@ -147,15 +148,27 @@ a {
 	background: #A79258;
 }
 
-#contacts-text {
+#contacts-text{
+	top: 35px;
 	color: #E2C880;
 	font: 18px 'Open Sans', sans-serif;
 	position: absolute;
-	right: 0;
-	width: 472px;
-	height: 352px;
+	right: 100px;
+	width: 366px;
+	height: 280px;
 	border-left: 3px solid #A79258;
 	padding-left: 15.5px;
+	padding-top: 18px;
+}
+
+.settings {
+	color: #757575;
+	font: 12px 'Open Sans', sans-serif;
+}
+
+em {
+	color: #FFFBFC;
+	font: 15px 'Open Sans', sans-serif;
 }
 
 #offer-title {
