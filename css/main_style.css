@@ -149,6 +149,15 @@ a {
 	height: 170px;
 }
 
+#ads-block-add {
+	position: relative;
+	padding: 60.9px 15px 0 16px;
+	width: 1169.05px;
+	height: 70px;
+}
+
+
+
 #ads-title {
 	font: 45px 'Open Sans', sans-serif;
 	color: #FFFBFC;
@@ -302,6 +311,105 @@ a {
 .ad-info-button:hover {
 	text-decoration: underline;
 }
+
+#new-ad {
+	position: relative;
+	background: #EEEDED;
+	border: 1px solid #DDDCDC;
+	margin: 0 auto;
+	width: 722.22px;
+	height: 690.7px;
+	margin-bottom: 107.8px;
+	margin-top: 47.5px;
+}
+
+#data-place{
+	text-align: center;
+	margin: 0 auto;
+	width: 364px;
+	height: 400px;
+	margin: 44.5px 178.7px 246.2px 179.5px;
+}
+
+#data-place input {
+	margin: 0 auto;
+	width: 355px;
+	height: 35px;
+	margin-top: 3px;
+	margin-bottom: 10px;
+}
+
+#data-place label, #upload_photo label {
+	font: 20px 'Open Sans', sans-serif;	
+	line-height: 1.4;
+	color: #95989A;
+}
+
+#upload_photo label {
+	position: absolute;
+	left: 76px;
+}
+
+#upload_photo {
+	padding-top: 10px;
+	top: 454.5px;
+	left: 179.5px;
+	position: absolute;
+	width: 364px;
+	height: 113.5px;
+}
+
+#new-ad-photo {
+	position: absolute;
+	bottom: 0;
+	left: 50.5px;
+}
+
+#buttons-upload {
+	position: absolute;
+	right: 49px;
+	bottom: 3px;
+}
+
+#button-load, #button-delete {
+	width: 165px;
+	height: 29.52px;
+	background: #A79258;
+	font: 15px 'Open Sans', sans-serif;
+	color: #FFFFFF;
+	text-align: center;
+	border: 1px solid #DDDCDC;
+	line-height: 1.7;
+}
+
+#button-delete {
+	margin-top: 10px;
+}
+
+#button-load:hover, #button-delete:hover {
+	background: #af9b67;
+}
+
+#button-send {
+	font: 20px 'Open Sans', sans-serif;
+  	text-align: center;
+  	line-height: 2.6;
+  	color: #FFFBFC;
+  	position: absolute;
+	background: #51536B;
+	border: 1px solid #DDDCDC;
+	height: 59px;
+	width: 329.82px;
+	top: 610px;
+	left: 196.5px;
+}
+
+#button-send:hover {
+	background: #606278 ;
+}
+
+
+
 
 
 #info {
