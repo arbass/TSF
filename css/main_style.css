@@ -169,8 +169,8 @@ a {
   	color: #FFFBFC;
 }
 
-#buttons a:hover {
-	background: #707285 ;
+#button-add:hover, #button-show:hover {
+	background: #606278 ;
 }
 
 #button-add, #button-show {
