@@ -144,9 +144,9 @@ a {
 
 #ads-block {
 	position: relative;
-	padding: 60.9px 15px 74px 16px;
+	padding: 60.9px 15px 43.5px 16px;
 	width: 1169.05px;
-	height: 162.57px;
+	height: 170px;
 }
 
 #ads-title {
@@ -159,13 +159,19 @@ a {
 #buttons {
 	position: relative;
 	color: #FFFBFC;
-	font: 20px 'Open Sans', sans-serif;
-  	text-align: center;
-	line-height: 2.6;
 	margin-top: 45.5px;
-/*	overflow: hidden;*/
 }
 
+#buttons a{
+	font: 20px 'Open Sans', sans-serif;
+  	text-align: center;
+  	line-height: 2.6;
+  	color: #FFFBFC;
+}
+
+#buttons a:hover {
+	background: #707285 ;
+}
 
 #button-add, #button-show {
 	position: absolute;
@@ -182,6 +188,12 @@ a {
 
 #button-show {
 	left: 595.1px;
+}
+
+#left-side-ad {
+	height: 620px;
+	width: 584.5px;
+	background: white;
 }
 
 
