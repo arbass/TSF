@@ -190,12 +190,118 @@ a {
 	left: 595.1px;
 }
 
-#left-side-ad {
-	height: 620px;
-	width: 584.5px;
-	background: white;
+#ads-block-middle {
+	margin: 0 auto;
+	height: 601px;
+	width: 1169.05px;
+	position: relative;
+	padding-bottom: 93px;
 }
 
+#left-side-ad, #right-side-ad {
+	position: absolute;
+	height: 620px;
+	width: 548.5px;
+
+
+}
+
+#left-side-ad {
+	left: 0;
+}
+
+#right-side-ad {
+	right: 0;
+
+}
+
+.ad-card{
+	position: relative;
+	width: 548.14px;
+	height: 186.4px;
+	margin-bottom: 23px;
+}
+
+.ad-card-photo {
+	position: absolute;
+	left: 0;
+	width: 184.66px;
+	height: 186.4px;
+}
+
+.ad-card-title {
+	position: absolute;
+	right: 0;
+	width: 364.36px;
+	height: 33px;
+	background: #464143;
+}
+
+.ad-type {
+	font: 20px 'Open Sans', sans-serif;
+	color: #FFFBFC;
+	position: absolute;
+	left: 22.7px;
+	top: 1px;
+}
+
+.ad-date {
+	font: 10px 'Open Sans', sans-serif;
+	color: #CCCBCB;
+	position: absolute;
+	right: 49.7px;
+	top: 10px;
+}
+
+.ad-content {
+	background: #EEEDED;
+	position: absolute;
+	top: 33px;
+	right: 0;
+	width: 364.36px;
+	height: 154px;
+}
+
+.ad-name {
+	font: 12px 'Open Sans', sans-serif;
+	color: #37444D;
+	position: absolute;;
+	top: 10px;
+	left: 27px;
+	width: 324.34px;
+}
+
+.ad-content-text {
+	position: absolute;
+	color: #435E70;
+	font: 11px 'Open Sans', sans-serif;
+	line-height: 1.3;
+	width: 323.89px;
+	height: 83px;
+	left: 27px;
+	top: 34px;
+}
+
+.ad-price {
+	position: absolute;
+	color: #6E7A82;
+	font: 12px 'Open Sans', sans-serif;
+	left: 27px;
+	bottom: 8.5px;
+}
+
+.ad-info-button {
+	position: absolute;
+	color: #0083DB;
+	font: 12px 'Open Sans', sans-serif;
+	right: 17.4px;
+	bottom: 8.5px;
+	text-transform: uppercase;
+}
+
+.ad-info-button:hover {
+	text-decoration: underline;
+}
 
 
 #info {
