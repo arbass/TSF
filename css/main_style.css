@@ -1,6 +1,6 @@
 @import url(reset.css);
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 .clear {
 	clear: both;
 }
@@ -188,6 +188,7 @@ a {
 	border: 1px solid #DDDCDC;
 	height: 59px;
 	width: 329.82px;
+	line-height: 2.9;
 
 }
 
@@ -393,7 +394,7 @@ a {
 #button-send {
 	font: 20px 'Open Sans', sans-serif;
   	text-align: center;
-  	line-height: 2.6;
+  	line-height: 2.9;
   	color: #FFFBFC;
   	position: absolute;
 	background: #51536B;
@@ -426,9 +427,9 @@ a {
 	position: absolute;
 	height: 352px;
 	width: 529.7px;
-	background: url(../res/map.png) no-repeat;
-	border:  2px solid #A79258;
-	background-size: cover;
+/*	background: url(../res/map.png) no-repeat;
+*/	border:  2px solid #A79258;
+/*	background-size: cover;*/
 }
 
 #central-line {
@@ -547,4 +548,139 @@ em {
 
 #data-place input[type="text"] {
 	font: 18px 'Open Sans', sans-serif;
+}
+
+/*Тут у нас попап*/
+
+.b-popup{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+}
+.b-popup .b-popup-content{
+    margin:40px auto 0px auto;
+    width:100px;
+    height: 40px;
+    padding:10px;
+    background-color: #c5c5c5;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+/*Тут у нас попап*/
+
+.ad-full {
+	position: relative;
+	margin: 0 auto;
+	width: 871.39px;
+	height: 982.85px;
+	background: #FFFFFF;
+	left: 0;
+	top: 0;
+}
+
+.ad-full p, a {
+	font-family: 'Roboto', sans-serif;
+}
+
+.ad-full-header {
+	font-size: 32px;
+	width: 100%;
+	height: 181.7px;
+}
+
+.users-photo {
+	width: 101.32px;
+	height: 101.32px;
+	position: absolute;
+	left: 40.5px;
+	top: 39.9px;
+}
+
+.users-name {
+	position: absolute;
+	top: 42.4px;
+	left: 173.5px;
+}
+
+.users-action {
+	position: absolute;
+	top: 93.7px;
+	left: 173.5px;
+	color: #757575;
+}
+
+.close-popup {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 29.1px;
+	top: 29.1px;
+	background: url(../res/Union.png) no-repeat;
+}
+
+.close-popup:hover {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 30.1px;
+	top: 28.1px;
+	background: url(../res/Union-shadow.png) no-repeat;
+}
+
+.ad-full-photo {
+	width: 100%;
+	height: 426.72px;
+}
+
+.ad-full-name {
+	font-size: 34px;
+	position: absolute;
+	left: 40.5px;
+	top: 621.4px;
+}
+
+.ad-full-description {
+	display: block;
+	width: 791.14px;
+	height: 189.26px;
+	position: absolute;
+	left: 40.5px;
+	top: 675px;
+	font-size: 25px;
+}
+
+.ad-full-buttons {
+	position: absolute;
+	left: 40.5px;
+	bottom: 54.9px;	
+}
+
+.ad-full-show-num {
+	margin-right: 65px;
+}
+
+.ad-full-buttons a{
+	color: #4D4D4D;
+	font-size: 25px;
+}
+
+.ad-full-buttons a:hover {
+	text-decoration: underline;
+}
+
+.popup {
+	position: absolute;
+	left: 156.5px;
+	top: 48.4px;
+	z-index: 1;
+	background-color: #c5c5c5;
+}
+
+.YMapsID {
+	width: 100%;
+	height: 100%;
 }

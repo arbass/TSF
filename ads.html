@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.js"
+	  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+	  crossorigin="anonymous"></script>
+	<script src="scripts/popup.js"></script>
 	<meta charset="utf-8">
 	<title>ТСФ- Главная</title>
 	<link rel="stylesheet" type="text/css" href="css/main_style.css">
@@ -24,6 +29,25 @@
 		</div>
 		<div id="ads-opacy">
 		<div id="ads-box">
+			<div class="popup">
+				<div class="ad-full">
+					<div class="ad-full-header">
+						<img class="users-photo" src="res/ellipse.png">
+						<p class="users-name">Иван</p>
+						<p class="users-action">Продам</p>
+						<a class="close-popup" href="javascript:PopUpHide()"></a>
+					</div>
+					<div class="ad-full-photo"><img src="res/rectangle.png"></div>
+					<div class="ad-full-content">
+						<p class="ad-full-name">Мотор Honda</p>
+						<p class="ad-full-description">По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст</p>
+						<div class="ad-full-buttons">
+							<a class="ad-full-show-num" href="#">ПОКАЗАТЬ НОМЕР ТЕЛЕФОНА</a>
+							<a class="ad-full-show-mail" href="#">ПОКАЗАТЬ E-MAIL</a>
+						</div>
+					</div>
+				</div>
+			</div>	
 			
 			<div id="ads-block">
 				<h2 id="ads-title">ДОСКА ОБЪЯВЛЕНИЙ</h2>
@@ -41,10 +65,10 @@
 					<p class="ad-date">22 Ноября</p>
 					</div>
 					<div class="ad-content">
-						<p class="ad-name">Мотор лодочный У-да457ча</p>
+						<p class="ad-name">Мотор лодочный У-да457!!</p>
 						<p class="ad-content-text">Разнообразный и богатый опыт консультация с широким активом способствует подготовки и реализации дальнейших направлений развития. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры влечет за собой процесс внедрения и</p>
 						<p class="ad-price">Цена: 56000 р.</p>
-						<a class="ad-info-button" href="#">Подробнее</a>
+						<a class="ad-info-button" href="javascript:PopUpShow()">Подробнее</a>
 					</div>
 				</div>
 				<div class="ad-card">
