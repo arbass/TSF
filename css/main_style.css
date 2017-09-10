@@ -572,6 +572,18 @@ em {
 
 /*Тут у нас попап*/
 
+.popup {
+	position: absolute;
+		left: 156.5px;
+		top: 48.4px;
+	z-index: 1;
+    background-color: #c5c5c5;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+    
+}
+
+
 .ad-full {
 	position: relative;
 	margin: 0 auto;
@@ -581,6 +593,7 @@ em {
 	left: 0;
 	top: 0;
 }
+
 
 .ad-full p, a {
 	font-family: 'Roboto', sans-serif;
@@ -670,14 +683,6 @@ em {
 
 .ad-full-buttons a:hover {
 	text-decoration: underline;
-}
-
-.popup {
-	position: absolute;
-	left: 156.5px;
-	top: 48.4px;
-	z-index: 1;
-	background-color: #c5c5c5;
 }
 
 .YMapsID {
