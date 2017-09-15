@@ -31,7 +31,6 @@ a {
 #goods-wrapper {
 	width: 1199px;
 	height: 1496px;
-	background: red;
 	margin: 0 auto;
 	position: relative;
 }
@@ -700,4 +699,103 @@ em {
 .YMapsID {
 	width: 100%;
 	height: 100%;
+}
+
+.goods-sidebar {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: blue;
+	width: 394px;
+	height: 1496px;
+}
+
+.goods-sidebar-header {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 393.5px;
+	height: 336.73px;
+	background: url(../res/sidebar-header.png) no-repeat;
+}
+
+.sidebar-header-title {
+	position: absolute;
+	left: 0;
+	top: 218px;
+	width: 100%;
+	height: 119px;
+	background: black;
+
+}
+
+#sidebar-header-title {
+	font-family: 'Roboto', sans-serif;	
+	font-size: 30px;
+	text-align: center;
+	color: #ffffff;
+	position: absolute;
+	top: 22.7px;
+	left: 71px;
+}
+
+.goods-sidebar-menu {
+	background: #FAFAFA;
+	height: 1159px;
+	width: 100%;
+	position: relative;
+	margin-top: 336.73px;
+}
+
+.goods-sidebar-menu a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #000000;	
+}
+
+.goods-sidebar-menu a:hover {
+	color: #4285F4;
+}
+
+.goods-sidebar-menu ul {
+	width: 335px; 
+	padding: 51px 0 0 0;
+	margin-right: 0;
+	margin-left: 22px;
+}
+
+
+.goods-sidebar-menu ul li {
+	background-size: 28px 28px;
+	padding-left: 40px;
+	padding-top: 3px;
+	line-height: 1.1;
+	height: 57.86px;
+}
+
+
+#a1 {
+	background: url(../res/led-light-lam.png) no-repeat;
+}
+
+#a1:hover {
+	background: url(../res/led-light-l.png) no-repeat;
+}
+
+
+#a2 {
+	background: url(../res/icon1.png) no-repeat;
+}
+
+#a2:hover {
+	background: url(../res/iconhover.png) no-repeat;
+}
+
+
+#a3 {
+	background: url(../res/dat.png) no-repeat;
+}
+
+#a3:hover {
+	background: url(../res/data.png) no-repeat;
 }
