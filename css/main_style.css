@@ -10,6 +10,10 @@ body {
 	font: 18px 'Open Sans', sans-serif;
 }
 
+#goods-body {
+	background: #EEEEEE;
+}
+
 .ads-body {
 	background: url(../res/Background-ads.png) no-repeat;
 	background-size: cover;
@@ -22,6 +26,14 @@ a {
 
 #wrapper {
 	margin: 0 auto;
+}
+
+#goods-wrapper {
+	width: 1199px;
+	height: 1496px;
+	background: red;
+	margin: 0 auto;
+	position: relative;
 }
 
 #header {
