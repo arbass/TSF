@@ -702,6 +702,7 @@ em {
 }
 
 .goods-sidebar {
+	box-shadow: 0px 1px 16px 0px rgba(50, 50, 50, 1);
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -725,7 +726,7 @@ em {
 	top: 218px;
 	width: 100%;
 	height: 119px;
-	background: black;
+	background: rgba(149, 152, 154, 0.8);
 
 }
 
@@ -766,7 +767,6 @@ em {
 
 
 .goods-sidebar-menu ul li {
-	background-size: 28px 28px;
 	padding-left: 40px;
 	padding-top: 3px;
 	line-height: 1.1;
@@ -774,28 +774,164 @@ em {
 }
 
 
+
 #a1 {
-	background: url(../res/led-light-lam.png) no-repeat;
+	background: url(../res/li/led-light-lam.png) no-repeat;
 }
 
 #a1:hover {
-	background: url(../res/led-light-l.png) no-repeat;
+	background: url(../res/li/led-light-l.png) no-repeat;
 }
 
 
 #a2 {
-	background: url(../res/icon1.png) no-repeat;
+	background: url(../res/li/icon1.png) no-repeat;
 }
 
 #a2:hover {
-	background: url(../res/iconhover.png) no-repeat;
+	background: url(../res/li/iconhover.png) no-repeat;
 }
 
 
 #a3 {
-	background: url(../res/dat.png) no-repeat;
+	background: url(../res/li/dat.png) no-repeat;
 }
 
 #a3:hover {
-	background: url(../res/data.png) no-repeat;
+	background: url(../res/li/data.png) no-repeat;
+}
+
+
+#a4 {
+	background: url(../res/li/icon3.png) no-repeat;
+}
+
+#a4:hover {
+	background: url(../res/li/icon2.png) no-repeat;
+}
+
+
+#a5 {
+	background: url(../res/li/led-bulb1.png) no-repeat;
+}
+
+#a5:hover {
+	background: url(../res/li/led-bulb.png) no-repeat;
+}
+
+
+#a6 {
+	background: url(../res/li/hydro-power-generatio.png) no-repeat;
+}
+
+#a6:hover {
+	background: url(../res/li/hydro-power-generation.png) no-repeat;
+}
+
+
+#a7 {
+	background: url(../res/li/electrodes.png) no-repeat;
+}
+
+#a7:hover {
+	background: url(../res/li/electrod.png) no-repeat;
+}
+
+
+#a8 {
+	background: url(../res/li/011-jumper.png) no-repeat;
+}
+
+#a8:hover {
+	background: url(../res/li/011-jumper22.png) no-repeat;
+}
+
+
+#a9 {
+	background: url(../res/li/010-cooking-stove-with-heat.png) no-repeat;
+}
+
+#a9:hover {
+	background: url(../res/li/010-cooking-stove-with-heat22.png) no-repeat;
+}
+
+
+#a10 {
+	background: url(../res/li/009-alarm.png) no-repeat;
+}
+
+#a10:hover {
+	background: url(../res/li/009-alarm22.png) no-repeat;
+}
+
+
+#a11 {
+	background: url(../res/li/008-phone-receiver.png) no-repeat;
+}
+
+#a11:hover {
+	background: url(../res/li/008-phone-receiver22.png) no-repeat;
+}
+
+
+#a12 {
+	background: url(../res/li/007-tool.png) no-repeat;
+}
+
+#a12:hover {
+	background: url(../res/li/007-tool22.png) no-repeat;
+}
+
+
+#a13 {
+	background: url(../res/li/006-package-cube-box-for-delivery.png) no-repeat;
+}
+
+#a13:hover {
+	background: url(../res/li/006-package-cube-box-for-delivery22.png) no-repeat;
+}
+
+
+#a14 {
+	background: url(../res/li/005-celsius.png) no-repeat;
+}
+
+#a14:hover {
+	background: url(../res/li/005-celsius22.png) no-repeat;
+}
+
+
+#a15 {
+	background: url(../res/li/004-battery.png) no-repeat;
+}
+
+#a15:hover {
+	background: url(../res/li/004-battery22.png) no-repeat;
+}
+
+
+#a16 {
+	background: url(../res/li/003-ac.png) no-repeat;
+}
+
+#a16:hover {
+	background: url(../res/li/003-ac22.png) no-repeat;
+}
+
+
+#a17 {
+	background: url(../res/li/002-boat-motor.png) no-repeat;
+}
+
+#a17:hover {
+	background: url(../res/li/002-boat-motor22.png) no-repeat;
+}
+
+
+#a18 {
+	background: url(../res/li/111.png) no-repeat;
+}
+
+#a18:hover {
+	background: url(../res/li/001-settings-work-tool-122.png) no-repeat;
 }
