@@ -5,7 +5,7 @@
 	  src="https://code.jquery.com/jquery-3.2.1.js"
 	  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
 	  crossorigin="anonymous"></script>
-	<script src="scripts/slideshow.js"></script>
+	
 	<meta charset="utf-8">
 	<title>ТСФ- Главная</title>
 	<link rel="stylesheet" type="text/css" href="css/main_style.css">
@@ -32,67 +32,36 @@
 
 
 
+		<script src="scripts/slideshow.js"></script>
+		<div class="slidershow-container">
+		<div class="mySlides fade">
+			<div class="numbertext">1/3</div>
+			<img src="img/1.jpg" style="width:100%">
+			<div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas iusto aspernatur quo.</div>
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">2/3</div>
+			<img src="img/2.jpg" style="width:100%">
+			<div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias temporibus nihil, quaerat!</div>
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">3/3</div>
+			<img src="img/3.jpg" style="width:100%">
+			<div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto eaque voluptatibus, doloribus!</div>
+		</div>
+		<a onclick="plusSlides(-1)" class="prev">&#10094</a>
+		<a onclick="plusSlides(1)" class="next">&#10095</a>
+	</div>
+	<br>
+	<div style="text-align:center;">
+		<span class="dot" onclick="currentSlide(1)"></span>
+		<span class="dot" onclick="currentSlide(2)"></span>
+		<span class="dot" onclick="currentSlide(3)"></span>
 
-		<div id="header-image" class="slideshow-container">
-			<div class="mySlides fade">
-				<img src="res/Slideshow/1.jpg" alt="">
-				<div class="text">
-					<h2 id="main-title">Судовое оборудование<br>
-							в Санкт - Петербурге<br>
-							ООО "ТСФ"
-						</h2>
-						<div id="arrow-down">
-						<a href="#content-box"><img src="res/down-arrow-in-small-circle.png"></a>
-					</div>	
-					<div id="slide-buttoms">
-						<ul>
-							<li><img class="dot" onclick="currentSlide(1)" src="res/Ellipse-2.png"></li>
-							<li><img class="dot" onclick="currentSlide(2)" src="res/Ellipse-2.png"></li>
-							<li><img class="dot" onclick="currentSlide(3)" src="res/Ellipse-2.png"></li>
-						</ul>
-					</div>
-				</div>
-			</div>
+	</div>
 
-			<div class="mySlides fade">
-				<img src="res/Slideshow/2.jpg" alt="">
-				<div class="text">
-					<h2 id="main-title">Судовое оборудование<br>
-							в Санкт - Петербурге<br>
-							ООО "ТСФ"
-						</h2>
-						<div id="arrow-down">
-						<a href="#content-box"><img src="res/down-arrow-in-small-circle.png"></a>
-					</div>	
-					<!-- <div id="slide-buttoms">
-						<ul>
-							<li><a href="#"><img src="res/Ellipse-2.png"></a></li>
-							<li><a href="#"><img src="res/Ellipse-2.png"></a></li>
-							<li><a href="#"><img src="res/Ellipse-2.png"></a></li>
-						</ul>
-					</div> -->
-				</div>
-			</div>
 
-			<div class="mySlides fade">
-				<img src="res/Slideshow/3.jpg" alt="">
-				<div class="text">
-					<h2 id="main-title">Судовое оборудование<br>
-							в Санкт - Петербурге<br>
-							ООО "ТСФ"
-						</h2>
-						<div id="arrow-down">
-						<a href="#content-box"><img src="res/down-arrow-in-small-circle.png"></a>
-					</div>	
-					<!-- <div id="slide-buttoms">
-						<ul>
-							<li><a href="#"><img src="res/Ellipse-2.png"></a></li>
-							<li><a href="#"><img src="res/Ellipse-2.png"></a></li>
-							<li><a href="#"><img src="res/Ellipse-2.png"></a></li>
-						</ul> -->
-					</div>
-				</div>
-			</div>
+
 
 					<!-- <img src="res/yachts-331744_1920.png">
 						<h2 id="main-title">Судовое оборудование<br>
@@ -110,6 +79,17 @@
 						</ul>
 					</div> -->
 		</div>
+
+								<div id="arrow-down">
+						<a href="#content-box"><img src="res/down-arrow-in-small-circle.png"></a>
+					</div>	
+					<div id="slide-buttoms">
+						<ul>
+							<li><img class="dot" onclick="currentSlide(1)" src="res/Ellipse-2.png"></li>
+							<li><img class="dot" onclick="currentSlide(2)" src="res/Ellipse-2.png"></li>
+							<li><img class="dot" onclick="currentSlide(3)" src="res/Ellipse-2.png"></li>
+						</ul>
+					</div>
 
 
 
