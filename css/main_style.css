@@ -587,8 +587,9 @@ em {
 
 .popup {
 	position: absolute;
-	left: 156.5px;
-	top: 48.4px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 	z-index: 1;
     background-color: #c5c5c5;
     border-radius:5px;
